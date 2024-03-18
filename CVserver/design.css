@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background: rgb(218, 215, 240);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.cv-container{
+    min-height: 600px;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    position:relative;
+    margin: 20px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.left-container{
+    position:relative;
+    background: #23233a;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(53, 51, 51, 0.1);
+}
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight:300;
+}
+.divider {
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid #fff;
+}
+.contactInfo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.proffessionalSkill{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.language{
+    margin-top: 30px;
+}
+.title {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+i {
+    margin-right: 10px;
+}
+.stars {
+    color: #fff; 
+}
+
+.right-container{
+    position:relative;
+   background:#fff;
+    padding: 40px;
+}
+.profileBio {
+    margin-top: 30px;
+}
+.profileBio h3.title {
+    color: #23233a;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.profileBio p {
+    color: #23233a;
+    font-size: 1em;
+    text-align: justify;
+}
+.education {
+    margin-top: 30px;
+}
+.education h3.title {
+    color: #23233a;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #23233a;
+}
+.experience {
+    margin-top: 30px;
+}
+.experience h3.title {
+    color: #23233a;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #23233a;
+}
